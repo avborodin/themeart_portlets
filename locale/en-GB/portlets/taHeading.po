@@ -1,0 +1,20 @@
+msgid "leveltag"
+msgstr "HTML-Tag"
+
+msgid "level"
+msgstr "Level"
+
+msgid "levelDesc"
+msgstr "Heading"
+
+msgid "ankername"
+msgstr "Anchor designation"
+
+msgid "ankerDesc"
+msgstr "Jump label to the content element"
+
+msgid "alignmentDesc"
+msgstr "Alignment of the element"
+
+msgid "heading"
+msgstr "Heading"

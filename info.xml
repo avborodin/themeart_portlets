@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding="utf-8"?>
+<jtlshopplugin>
+	<Name>Themy Toolbox</Name>
+	<Description>Toolbox für deinen JTL-Shop</Description>
+	<Author>Themeart</Author>
+	<URL>https://www.themeart.de</URL>
+	<XMLVersion>100</XMLVersion>
+	<ShopVersion>5.1.1</ShopVersion>
+	<Icon>preview.png</Icon>
+	<PluginID>themeart_portlets</PluginID>
+	<Version>1.20.2</Version>
+	<CreateDate>2021-03-30</CreateDate>
+	<Install>
+		<Adminmenu>
+			<Customlink sort="1">
+				<Name>Instagram</Name>
+			</Customlink>
+			<Settingslink sort="2">
+				<Name>Einstellungen</Name>
+				<Setting type="selectbox" initialValue="Y" sort="1" conf="Y">
+					<Name>Suche aktivieren</Name>
+					<Description/>
+					<ValueName>isLightsearch</ValueName>
+					<SelectboxOptions>
+						<Option value="Y" sort="1">Ja</Option>
+						<Option value="N" sort="2">Nein</Option>
+					</SelectboxOptions>
+				</Setting>
+				<Setting type="selectbox" initialValue="Y" sort="2" conf="Y">
+					<Name>Produktbild anzeigen</Name>
+					<Description/>
+					<ValueName>showProductImage</ValueName>
+					<SelectboxOptions>
+						<Option value="Y" sort="1">Ja</Option>
+						<Option value="N" sort="2">Nein</Option>
+					</SelectboxOptions>
+				</Setting>
+				<Setting type="selectbox" initialValue="Y" sort="3" conf="Y">
+					<Name>Produktpreis anzeigen</Name>
+					<Description/>
+					<ValueName>showProductPrice</ValueName>
+					<SelectboxOptions>
+						<Option value="Y" sort="1">Ja</Option>
+						<Option value="N" sort="2">Nein</Option>
+					</SelectboxOptions>
+				</Setting>
+				<Setting type="text" initialValue="" sort="4" conf="N">
+					<Name>Whatsapp</Name>
+					<Description />
+					<ValueName>button_settings</ValueName>
+				</Setting>
+				<Setting type="selectbox" initialValue="N" sort="5" conf="Y">
+					<Name>Show whatsapp button</Name>
+					<Description/>
+					<ValueName>isWhatsappButton</ValueName>
+					<SelectboxOptions>
+						<Option value="Y" sort="1">Aktiviert</Option>
+						<Option value="N" sort="2">Deaktiviert</Option>
+					</SelectboxOptions>
+				</Setting>
+				<Setting type="text" initialValue="" sort="6" conf="Y">
+					<Name>Whatsapp number</Name>
+					<Description></Description>
+					<ValueName>whatsappNumber</ValueName>
+				</Setting>
+				<Setting type="text" initialValue="" sort="7" conf="N">
+					<Name>Lagerbestand visualisieren</Name>
+					<Description />
+					<ValueName>product_settings</ValueName>
+				</Setting>
+				<Setting type="selectbox" initialValue="N" sort="8" conf="Y">
+					<Name>Funktion aktivieren?</Name>
+					<Description>Die Wawi-Einstellung Lagerbestand beachten muss beim Artikel aktiv sein.</Description>
+					<ValueName>isProductStock</ValueName>
+					<SelectboxOptions>
+						<Option value="Y" sort="1">Ja</Option>
+						<Option value="N" sort="2">Nein</Option>
+					</SelectboxOptions>
+				</Setting>
+				<Setting type="text" initialValue=".stock-information" sort="9" conf="Y">
+					<Name>Selector für Anzeige</Name>
+					<Description></Description>
+					<ValueName>selectorProductStock</ValueName>
+				</Setting>
+				<Setting type="text" initialValue="" sort="10" conf="N">
+					<Name>Infinite scroll</Name>
+					<Description />
+					<ValueName>infinite_scroll_settings</ValueName>
+				</Setting>
+				<Setting type="selectbox" initialValue="3" sort="11" conf="Y">
+					<Name>Load on page</Name>
+					<Description/>
+					<ValueName>loadInfiniteScroll</ValueName>
+					<SelectboxOptions>
+						<Option value="1" sort="3">Scroll</Option>
+						<Option value="2" sort="1">Button</Option>
+						<Option value="3" sort="2">Click</Option>
+					</SelectboxOptions>
+				</Setting>
+				<Setting type="text" initialValue="" sort="12" conf="N">
+					<Name>Payment icons</Name>
+					<Description />
+					<ValueName>payment_icons_settings</ValueName>
+				</Setting>
+				<Setting type="selectbox" initialValue="N" sort="13" conf="Y">
+					<Name>Show payment icons</Name>
+					<Description/>
+					<ValueName>isPaymentIcons</ValueName>
+					<SelectboxOptions>
+						<Option value="Y" sort="1">Aktiviert</Option>
+						<Option value="N" sort="2">Deaktiviert</Option>
+					</SelectboxOptions>
+				</Setting>
+				<Setting type="text" initialValue="" sort="14" conf="Y">
+					<Name>Selector payment icons</Name>
+					<Description></Description>
+					<ValueName>selectorPaymentIcons</ValueName>
+				</Setting>
+			</Settingslink>
+		</Adminmenu>
+		<AdminWidget>
+			<Widget>
+				<Title>Themeart - News und Insights</Title>
+				<Class>ThemeartNewsWidget</Class>
+				<Container>center</Container>
+				<Description>Bleibe stets informiert über aktuelle Entwicklungen, spannende Kundenprojekte und interessante Ecommerce Themen.</Description>
+				<Pos>1</Pos>
+				<Expanded>1</Expanded>
+				<Active>1</Active>
+			</Widget>
+		</AdminWidget>
+		<Portlets>
+			<Portlet>
+				<Title>Slider</Title>
+				<Class>taSlider</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>BrandSlider</Title>
+				<Class>taBrandSlider</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>Button</Title>
+				<Class>taButton</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>Card</Title>
+				<Class>taCard</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>Product</Title>
+				<Class>taProduct</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>ProductFeed</Title>
+				<Class>taProductFeed</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>Google Map</Title>
+				<Class>taGooglemap</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>FlexContainer</Title>
+				<Class>taFlexContainer</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>Heading</Title>
+				<Class>taHeading</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>FAQ</Title>
+				<Class>taFaq</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>Icon</Title>
+				<Class>taIcon</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>Image</Title>
+				<Class>taImage</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>Gallery</Title>
+				<Class>taGallery</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>Config</Title>
+				<Class>taConfig</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>Usp</Title>
+				<Class>taUsp</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>News</Title>
+				<Class>taNews</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>Reviews</Title>
+				<Class>taReviews</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>Navigation</Title>
+				<Class>taNavigation</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>InstagramFeed</Title>
+				<Class>taInstagramFeed</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>PinterestFeed</Title>
+				<Class>taPinterestFeed</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+			<Portlet>
+				<Title>EasySlider</Title>
+				<Class>taEasySlider</Class>
+				<Group>themeart</Group>
+				<Active>1</Active>
+			</Portlet>
+		</Portlets>
+		<Blueprints>
+			<Blueprint>
+				<Name>Cards</Name>
+				<JSONFile>cards.json</JSONFile>
+			</Blueprint>
+			<Blueprint>
+				<Name>Cards v2</Name>
+				<JSONFile>cards_v2.json</JSONFile>
+			</Blueprint>
+			<Blueprint>
+				<Name>FAQ</Name>
+				<JSONFile>faq.json</JSONFile>
+			</Blueprint>
+			<Blueprint>
+				<Name>Überschrift mit Linie</Name>
+				<JSONFile>ueberschrift_mit_linie.json</JSONFile>
+			</Blueprint>
+			<Blueprint>
+				<Name>Feed Neu im Sortiment</Name>
+				<JSONFile>feed_neu_im_sortiment.json</JSONFile>
+			</Blueprint>
+			<Blueprint>
+				<Name>Feed Top-Angebote</Name>
+				<JSONFile>feed_top_angebote.json</JSONFile>
+			</Blueprint>
+			<Blueprint>
+				<Name>USP</Name>
+				<JSONFile>usp.json</JSONFile>
+			</Blueprint>
+			<Blueprint>
+				<Name>USP v2</Name>
+				<JSONFile>usp_v2.json</JSONFile>
+			</Blueprint>
+			<Blueprint>
+				<Name>Willkommen v1</Name>
+				<JSONFile>willkommen_v1.json</JSONFile>
+			</Blueprint>
+			<Blueprint>
+				<Name>Willkommen v2</Name>
+				<JSONFile>willkommen_v2.json</JSONFile>
+			</Blueprint>
+		</Blueprints>
+		<ServicesRequiringConsent>
+			<Vendor>
+				<ID>GoogleMap</ID>
+				<Company>Google Inc.</Company>
+				<Localization iso="GER">
+					<Name>Google Map</Name>
+					<Purpose>Anzeige von Google Map</Purpose>
+					<Description>Um Google Map auf dieser Seite anzuzeigen, ist Ihre Zustimmung zur Datenweitergabe und Speicherung von Drittanbieter-Cookies des Anbieters Google erforderlich.</Description>
+					<PrivacyPolicy>https://policies.google.com/privacy?hl=de</PrivacyPolicy>
+				</Localization>
+				<Localization iso="ENG">
+					<Name>Google Map</Name>
+					<Purpose>Display Google Map</Purpose>
+					<Description>In order to display Google Map on this page, your consent to the data transfer and storage of third-party cookies from Google is required.</Description>
+					<PrivacyPolicy>https://policies.google.com/privacy?hl=en</PrivacyPolicy>
+				</Localization>
+			</Vendor>
+		</ServicesRequiringConsent>
+		<Locales>
+			<Variable>
+				<Name>text-lagerbestand</Name>
+				<Description>Text für visuellen Lagerbestand</Description>
+				<VariableLocalized iso="GER">Nur noch %s auf Lager!</VariableLocalized>
+				<VariableLocalized iso="ENG">Only %s left in stock!</VariableLocalized>
+			</Variable>
+		</Locales>
+		<CSS>
+			<file>
+				<name>lightsearch.css</name>
+				<priority>3</priority>
+			</file>
+			<file>
+				<name>portlets.css</name>
+				<priority>3</priority>
+			</file>
+			<file>
+				<name>jquery.menu-anchor.css</name>
+				<priority>3</priority>
+			</file>
+			<file>
+				<name>whatsapp.css</name>
+				<priority>3</priority>
+			</file>
+			<file>
+				<name>stock-progress-bar.css</name>
+				<priority>3</priority>
+			</file>
+			<file>
+				<name>tiny-slider/tiny-slider.css</name>
+				<priority>3</priority>
+			</file>
+		</CSS>
+		<JS>
+			<file>
+				<name>plugin.js</name>
+				<priority>1</priority>
+				<position>body</position>
+			</file>
+			<file>
+				<name>tiny-slider/min/tiny-slider.js</name>
+				<priority>1</priority>
+				<position>body</position>
+			</file>
+		</JS>
+	</Install>
+</jtlshopplugin>

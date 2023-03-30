@@ -1,0 +1,14 @@
+msgid "taNavigationType"
+msgstr "Type of navigation"
+
+msgid "taNavigationSubNavigation"
+msgstr "Show subnavigation from link"
+
+msgid "taNavigationAnchor"
+msgstr "Show anker navigation from content"
+
+msgid "taNavigationLinks"
+msgstr "Show links from linkgroup"
+
+msgid "taNavigationTagHeading"
+msgstr "Tag heading"

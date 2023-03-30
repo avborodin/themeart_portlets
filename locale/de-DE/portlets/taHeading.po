@@ -1,0 +1,21 @@
+msgid "leveltag"
+msgstr "HTML-Tag"
+
+msgid "level"
+msgstr "Grad"
+
+msgid "levelDesc"
+msgstr "Überschrift des x-Grades"
+
+msgid "ankername"
+msgstr "Ankerbezeichnung"
+
+msgid "ankerDesc"
+msgstr "Sprungmarke zum Inhaltselement"
+
+msgid "alignmentDesc"
+msgstr "Ausrichtung des Elements"
+
+msgid "heading"
+msgstr "Überschrift"
+

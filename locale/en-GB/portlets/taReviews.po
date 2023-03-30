@@ -1,0 +1,23 @@
+msgid "Reviews"
+msgstr "Reviews"
+
+msgid "DESC"
+msgstr "Descending"
+
+msgid "ASC"
+msgstr "Ascending"
+
+msgid "Number of stars"
+msgstr "Number of stars"
+
+msgid "Sort by stars"
+msgstr "Sort by stars"
+
+msgid "Sort by date"
+msgstr "Sort by date"
+
+msgid "Select"
+msgstr "Select"
+
+msgid "Number of reviews"
+msgstr "Number of reviews"

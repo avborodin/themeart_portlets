@@ -1,0 +1,8 @@
+msgid "News"
+msgstr "Nachrichten"
+
+msgid "TaNewsСategory"
+msgstr "Kategorie"
+
+msgid "TaNewsSelectCategory"
+msgstr "Kategorie wählen"

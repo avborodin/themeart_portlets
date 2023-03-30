@@ -1,0 +1,5 @@
+msgid "InstFeedLoadMore"
+msgstr "Load more"
+
+msgid "InstFeedPleaseDoAuthozure"
+msgstr "Please do authozure"

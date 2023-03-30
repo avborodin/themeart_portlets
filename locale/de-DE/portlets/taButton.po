@@ -1,0 +1,35 @@
+msgid "openInNewTab"
+msgstr "Im neuen Fester öffnen?"
+
+msgid "clickMe"
+msgstr "Jetzt shoppen"
+
+msgid "styleNon"
+msgstr "Keine"
+
+msgid "styleSecondary"
+msgstr "Secondary"
+
+msgid "styleLink"
+msgstr "Link"
+
+msgid "styleLight"
+msgstr "Light"
+
+msgid "btnOutline"
+msgstr "Outline Button?"
+
+msgid "btnOutlineDesc"
+msgstr "Button mit Rand"
+
+msgid "btnInline"
+msgstr "Button inline setzen?"
+
+msgid "btnInlineDesc"
+msgstr "Button kann neben einem anderen Button platziert werden"
+
+msgid "useFullWidth"
+msgstr "volle Breite"
+
+msgid "iconForButton"
+msgstr "Button mit Icon?"

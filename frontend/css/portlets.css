@@ -1,0 +1,38 @@
+.ta-navigation {
+    margin-bottom: 2rem;
+}
+.ta-navigation.nav-flying {
+    left: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: inline-block;
+    position: fixed;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0px 8px 3px rgba(0, 0, 0, 0.1);
+}
+.ta-navigation.nav-flying li {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: -1px;
+}
+.ta-navigation.nav-flying li span {
+    margin: 0 0.5rem 0 -.5rem;
+    font-size: 0.85em;
+}
+/** pinterest **/
+.ta-pinterest > span {
+    border: 0 !important;
+    max-width: 100% !important;
+}
+.ta-pinterest > span > span:nth-child(1),
+.ta-pinterest > span > span:nth-child(3) {
+    display: none;
+}
+.ta-pinterest > span > span:nth-child(2) {
+    padding: 0;
+}
+.ta-pinterest > span > span:nth-child(2) > span > span {
+    border: 1px solid #ddd;
+    margin: 0.5rem;
+}

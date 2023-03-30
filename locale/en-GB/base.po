@@ -1,0 +1,11 @@
+msgid "Einstellungen"
+msgstr "Configuration"
+
+msgid "StockProgressBarTitle"
+msgstr "ONLY <span class=\"status-%s\">%s PCS</span> LEFT!"
+
+msgid "IgIsAuthizored"
+msgstr "Instagram is authizored"
+
+msgid "IgDiconnect"
+msgstr "Diconnect"

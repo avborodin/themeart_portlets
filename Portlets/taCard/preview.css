@@ -1,0 +1,38 @@
+.themy .card-footer {
+	background-color: #111;
+	color: #fff;
+}
+.themy.card {
+	border: 0;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	color: #000;
+  }
+.themy .card-footer > h2, 
+.themy .card-footer > h3, 
+.themy .card-footer > h4, 
+.themy .card-footer > h5, 
+.themy .card-footer > h6 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.themy.card .preview {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+	z-index: 1;
+}
+.themy.card div.empty {
+	background-color: rgba(255,255,255,0.95);
+	padding: 0.5rem 1rem;
+	font-size: 14px;
+	margin: auto;
+	display: inline-block;
+	border-radius: 5px;
+}
+.themy.card svg {
+	vertical-align: middle;
+	margin-right: 1rem;
+	max-width: 30px;
+}

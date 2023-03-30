@@ -1,0 +1,8 @@
+msgid "gmap_key"
+msgstr "API Key (<a href='https://developers.google.com/maps/documentation/javascript/get-api-key?hl=de' target='_blank'>hier erstellen</a>)"
+
+msgid "gmap_address"
+msgstr "Ihre Adresse in Form (Firma, Strasse Haus-Nr, PLZ Ort, Land)"
+
+msgid "gmap_height"
+msgstr "Höhe der Map in px"

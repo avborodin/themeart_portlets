@@ -1,0 +1,5 @@
+msgid "InstFeedLoadMore"
+msgstr "Mehr laden"
+
+msgid "InstFeedPleaseDoAuthozure"
+msgstr "Bitte machen Sie eine Autorisierung"

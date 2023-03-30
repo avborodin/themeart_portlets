@@ -1,0 +1,14 @@
+msgid "titleDesc"
+msgstr "MouseOver title for the link"
+
+msgid "openInNewTab"
+msgstr "Open in new window"
+
+msgid "openInNewTabDesc"
+msgstr "Opens the link in a new window, e.g. for external references"
+
+msgid "sizeDesc"
+msgstr "Possible information: 30px, 2em, 2rem"
+
+msgid "iconForButton"
+msgstr "Choose icon"

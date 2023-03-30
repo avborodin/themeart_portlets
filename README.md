@@ -1,1 +1,1 @@
-# themeart_portlets here2
+# themeart_portlets

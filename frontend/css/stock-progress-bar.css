@@ -1,0 +1,29 @@
+.stock-progress-bar {
+	margin-right: -1rem;
+	margin-left: -1rem;
+}
+.stock-progress-bar .status-0, .stock-progress-bar .status-1, .stock-progress-bar .status-2 {
+	font-weight:bold;
+}
+.stock-progress-bar .status-0 {
+	color: #b90000;
+}
+.stock-progress-bar .status-1 {
+	color: #f39932;
+}
+.stock-progress-bar .status-2 {
+	color: #1C871E;
+}
+.stock-progress-bar-title {
+	text-align: center;
+	text-transform: uppercase;
+}
+.ta-stock .status-0{
+	background-color: #b90000;
+}
+.ta-stock .status-1{
+	background-color: #F8BF00;
+}
+.ta-stock .status-2{
+	background-color: #1C871E;
+}

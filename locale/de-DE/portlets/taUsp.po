@@ -1,0 +1,15 @@
+msgid "subtitle"
+msgstr "Untertitel/Text"
+
+msgid "openInNewTab"
+msgstr "im neuen Fenster öffnen"
+
+msgid "openInNewTabDesc"
+msgstr "Öffnet den Link in einem neuen Fenster z.B. für externe Verweise"
+
+msgid "iconForButton"
+msgstr "Mit Icon anzeigen"
+
+msgid "alignmentDesc"
+msgstr "Ausrichtung des Elements"
+

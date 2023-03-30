@@ -1,0 +1,35 @@
+msgid "Profi"
+msgstr "Profile"
+
+msgid "Board"
+msgstr "Board"
+
+msgid "Pin"
+msgstr "Pin"
+
+msgid "profiName"
+msgstr "Profile name"
+
+msgid "boardName"
+msgstr "Board name"
+
+msgid "boardWidth"
+msgstr "Width"
+
+msgid "boardHeight"
+msgstr "Height"
+
+msgid "pinNumber"
+msgstr "Pin number"
+
+msgid "selectSize"
+msgstr "Select size"
+
+msgid "small"
+msgstr "Small"
+
+msgid "medium"
+msgstr "Medium"
+
+msgid "large"
+msgstr "Large"

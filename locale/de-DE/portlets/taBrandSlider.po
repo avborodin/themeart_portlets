@@ -1,0 +1,32 @@
+msgid "BrandSlider"
+msgstr "Marken-Slider"
+
+msgid "sliderToShowXl"
+msgstr "Slider anzeigen (xl)"
+
+msgid "sliderToShowLg"
+msgstr "Slider anzeigen (lg)"
+
+msgid "sliderToShowMd"
+msgstr "Slider anzeigen (md)"
+
+msgid "sliderToShowSm"
+msgstr "Slider anzeigen (sm)"
+
+msgid "centerMode"
+msgstr "Center-Mode"
+
+msgid "sliderAnimationSpeed"
+msgstr "Slider-Speed (ms)"
+
+msgid "autoStart"
+msgstr "Autoplay"
+
+msgid "pauseOnHover"
+msgstr "Pause bei Hover"
+
+msgid "pointNavigation"
+msgstr "Punktnavigation"
+
+msgid "showNavigationArrows"
+msgstr "Pfeilnavigation"

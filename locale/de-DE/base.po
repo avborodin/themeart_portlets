@@ -1,0 +1,11 @@
+msgid "Einstellungen"
+msgstr "Einstellungen"
+
+msgid "StockProgressBarTitle"
+msgstr "NUR NOCH <span class=\"status-%s\">%s STK</span> AUF LAGER!"
+
+msgid "IgIsAuthizored"
+msgstr "Instagram ist autorisiert"
+
+msgid "IgDiconnect"
+msgstr "Trennen"

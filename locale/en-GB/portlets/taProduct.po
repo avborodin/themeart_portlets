@@ -1,0 +1,14 @@
+msgid "ArtNr"
+msgstr "Artikel-Nr."
+
+msgid "imageSize"
+msgstr "Bildgöße"
+
+msgid "fkt"
+msgstr "Funktionsattribut"
+
+msgid "fktDesc"
+msgstr "Abweichende Beschreibung aus Funktionsattribut, hier eintragen"
+
+msgid "shortDescription"
+msgstr "Kurze Beschreibung anzeigen"

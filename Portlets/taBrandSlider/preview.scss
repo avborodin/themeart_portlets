@@ -1,0 +1,29 @@
+.opc-ImageSlider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: #fff;
+  &.opc-ImageSlider-with-image {
+    background-size: cover;
+    background-position: center;
+    height: 190px;
+    color: #000;
+  }
+  > div {
+    background-color: rgba(255,255,255,0.95);
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    margin: auto;
+    display: inline-block;
+  }
+  svg {
+    vertical-align: middle;
+    margin-right: 1rem;
+    max-width: 30px;
+  }
+}

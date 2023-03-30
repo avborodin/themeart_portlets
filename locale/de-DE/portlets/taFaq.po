@@ -1,0 +1,17 @@
+msgid "groupName"
+msgstr "FAQ-Gruppen"
+
+msgid "unfoldFirstGroup"
+msgstr "Erste Gruppe geöffnet"
+
+msgid "googleFaqSchema"
+msgstr "Google FAQ Schema"
+
+msgid "textBold"
+msgstr "Fragen in Fett darstellen"
+
+msgid "showSearch"
+msgstr "Suche anzeigen"
+
+msgid "searchFAQ"
+msgstr "Suche FAQ"
